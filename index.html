@@ -1,17 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta name="description" content="Minimal project template">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Minimal Project Page</title>
-
-  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
-  <link rel="stylesheet" href="./static/css/bulma.min.css">
-  <link rel="stylesheet" href="./static/css/index.css">
-</head>
 <body>
 
+<!-- Navigation -->
 <nav class="navbar" role="navigation">
   <div class="navbar-menu">
     <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
@@ -22,65 +11,124 @@
   </div>
 </nav>
 
+<!-- Hero Section -->
 <section class="hero">
   <div class="hero-body">
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1">Minimal Project Page</h1>
-          <div class="is-size-5">
-            <p>Author Name<sup>1</sup>, Collaborator<sup>2</sup></p>
-            <p><sup>1</sup>Institution One, <sup>2</sup>Institution Two</p>
+          <h1 class="title is-1 publication-title">
+            ARMOR🛡️: Adaptive Meshing with Reinforcement Optimization for Real-time 3D Monitoring in Unexposed Scenes
+          </h1>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://yizhezhang0418.github.io/">Yizhe Zhang</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a href="https://scholar.google.com.sg/citations?user=sewmV-oAAAAJ&hl=en">Jianping Li</a><sup>2,*</sup>,</span>
+            <span class="author-block">
+              <a href="https://xinzhaodc.github.io/">Xin Zhao</a><sup>1</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://liangfxwhu.github.io/">Fuxun Liang</a><sup>1</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://dongzhenwhu.github.io/index.html">Zhen Dong</a><sup>1</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://3s.whu.edu.cn/ybs/index.htm">Bisheng Yang</a><sup>1</sup>
+            </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>Wuhan University,</span>
+            <span class="author-block"><sup>2</sup>Nanyang Technological University</span>
+          </div>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>*</sup>Corresponding author</span>
           </div>
 
           <div class="column has-text-centered">
-            <div class="buttons is-centered">
-              <a href="#" class="button is-dark is-rounded">Paper</a>
-              <a href="#" class="button is-dark is-rounded">arXiv</a>
-              <a href="#" class="button is-dark is-rounded">Code</a>
-              <a href="#" class="button is-dark is-rounded">Data</a>
+            <div class="publication-links">
+              <!-- PDF Link -->
+              <span class="link-block">
+                <a href="https://arxiv.org/pdf/2504.19624"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon"><i class="fas fa-file-pdf"></i></span>
+                  <span>Paper</span>
+                </a>
+              </span>
+
+              <!-- Video Link -->
+              <span class="link-block">
+                <a href="https://www.youtube.com/watch?v=vtgG31wqreI"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon"><i class="fab fa-youtube"></i></span>
+                  <span>Video</span>
+                </a>
+              </span>
+
+              <!-- Code Link -->
+              <span class="link-block">
+                <a href="https://github.com/yizhezhang0418/ARMOR"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon"><i class="fab fa-github"></i></span>
+                  <span>Code</span>
+                </a>
+              </span>
             </div>
           </div>
+
         </div>
       </div>
     </div>
   </div>
 </section>
 
+<!-- Abstract -->
 <section class="section">
   <div class="container is-max-desktop">
     <div class="columns is-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Abstract</h2>
         <div class="content">
-          <p>This is a minimal project template with all media content removed. You can add your own images, videos, and other resources as needed.</p>
+          <p>
+            We present ARMOR🛡️, a novel real-time 3D monitoring framework for unexposed scenes using adaptive meshing and reinforcement-based optimization. Our system dynamically updates mesh structures based on sensor input and learns optimal policies for refining 3D representations in uncertain or occluded environments. Experiments demonstrate significant improvements in both accuracy and efficiency over conventional methods in complex real-world scenarios.
+          </p>
         </div>
       </div>
     </div>
   </div>
 </section>
 
+<!-- BibTeX -->
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    <pre><code>@article{your2025minimal,
-  author    = {Your Name and Collaborator},
-  title     = {Minimal Project Template},
-  journal   = {Your Conference},
-  year      = {2025},
+    <pre><code>@article{zhang2025armor,
+  title   = {ARMOR: Adaptive Meshing with Reinforcement Optimization for Real-time 3D Monitoring in Unexposed Scenes},
+  author  = {Zhang, Yizhe and Li, Jianping and Zhao, Xin and Liang, Fuxun and Dong, Zhen and Yang, Bisheng},
+  journal = {arXiv preprint arXiv:2504.19624},
+  year    = {2025}
 }</code></pre>
   </div>
 </section>
 
+<!-- Footer -->
 <footer class="footer">
   <div class="container">
     <div class="content has-text-centered">
       <p>
         This template is free to use and modify.
       </p>
+      <p>
+        This webpage template is based on resources provided by 
+        <a href="https://github.com/nerfies/nerfies.github.io" target="_blank">
+          nerfies.github.io
+        </a>.
+      </p>
     </div>
   </div>
 </footer>
 
 </body>
-</html>

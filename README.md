@@ -1,5 +1,4 @@
-# Aerial-ground Cross-modal Localization: Dataset, Ground-truth, and
-Benchmark
+# Aerial-ground Cross-modal Localization: Dataset, Ground-truth, and Benchmark
 
 This is the repository that contains source code for the .
 

@@ -2,7 +2,7 @@
 
 This is the repository that contains source code for the .
 
-If you find Nerfies useful for your work please cite:
+If you find it useful for your work please cite:
 ```
 
 ```

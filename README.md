@@ -1,4 +1,4 @@
-# Aerial-ground Cross-modal Localization: Dataset, Ground-truth, and Benchmark
+# AGI2P: Benchmarking Aerial–Ground Image-to-Point Cloud Localization with a Large-Scale Dataset
 
 This is the repository that contains source code for the .
 
